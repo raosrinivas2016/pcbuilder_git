@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/testing_git">
+
+
+<Resource name="jdbc/pc_builder"
+auth="Container"
+type="javax.sql.DataSource"
+username="root"
+password="nbuser"
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/pc_builder"
+maxActive="15"
+maxIdle="3"/>
+
+</Context>
